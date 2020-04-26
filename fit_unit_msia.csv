@@ -1,0 +1,41 @@
+code,name,credit_points,prerequisite,req_point,prohibition
+FIT1008,Introduction to computer science,6,"[['FIT1045', 'FIT1053']]",0,"['CSE1303', 'CSC1030', 'FIT1015', 'FIT2085']"
+FIT1043,Introduction to data science,6,[],0,[]
+FIT1045,Algorithms and programming fundamentals in python,6,[],0,"['FIT1029', 'FIT1053']"
+FIT1047,"Introduction to computer systems, networks and security",6,[],0,"['FIT1031', 'FIT2078']"
+FIT1051,Programming fundamentals in java,6,[],0,['FIT1002']
+FIT1055,IT professional practice and ethics,6,[],12,"['FIT1049', 'FIT2003']"
+FIT2004,Algorithms and data structures,6,"[['FIT1008', 'FIT1015', 'FIT1054', 'FIT2085', 'CSE1303']]",6,"['CSE2304', 'FIT2009']"
+FIT2014,Theory of computation,6,"[['FIT1045', 'FIT1048', 'FIT1051', 'FIT1053', 'ENG1003'], ['MAT1830', 'MTH1030', 'MTH1035', 'ENG1005']]",0,['CSE2303']
+FIT2081,Mobile application development,6,"[['FIT1045', 'FIT1048', 'FIT1051', 'FIT1053', 'FIT2071', 'FIT1002', 'FIT1053']]",0,[]
+FIT2085,Introduction to computer science for engineers,6,[],0,"['FIT1015', 'FIT1008']"
+FIT2086,Modelling for data analysis,6,"[['FIT1045', 'FIT1053'], ['MAT1830'], ['MAT1841', 'MAT2003', 'MTH1030', 'MTH1035']]",0,[]
+FIT2093,Introduction to cyber security,6,"[['FIT1047', 'FIT1031'], ['FIT1045', 'FIT1048', 'FIT1051', 'FIT1053']]",0,['FIT2078']
+FIT2099,Object oriented design and implementation,6,"[['FIT1045', 'FIT1048', 'FIT1051', 'FIT1053', 'FIT1054', 'FIT1008', 'FIT2071']]",0,['FIT2024']
+FIT2100,Operating systems,6,"[['FIT1047', 'FIT1031', 'ENG1003']]",0,['FIT2070']
+FIT2101,Software engineering process and management,6,"[['ENG1003'], ['ENG1060'], ['FIT1051', 'FIT1045', 'FIT1053']]",0,[]
+FIT2102,Programming paradigms,6,"[['FIT1054', 'FIT1008']]",0,[]
+FIT2107,Software quality and testing,6,[],0,['FIT4004']
+FIT3003,Business intelligence and data warehousing,6,"[['FIT1004', 'FIT2094', 'FIT3171']]",0,[]
+FIT3031,Network security,6,"[['FIT1047', 'FIT1031', 'FIT1019', 'FIT1005', 'FIT2008', 'ECE2041', 'FIT1005'], ['FIT2093']]",0,[]
+FIT3036,Computer science project,6,"[['FIT2004', 'FIT3140']]",0,"['CSE3301', 'FIT3144']"
+FIT3045,Industry-based learning,18,"[['FIT1045', 'FIT1053', 'FIT1048', 'FIT1051', 'ENG1003']]",72,['BUS3000']
+FIT3077,Software engineering: Architecture and design,6,[['FIT2099']],0,[]
+FIT3080,Intelligent systems,6,"[['FIT2004', 'CSE2304']]",0,"['CSE2309', 'CSE3309', 'DGS3691']"
+FIT3081,Image processing,6,"[['FIT2004', 'CSE2304']]",0,['CSE3314']
+FIT3134,Entrepreneurship,6,[],72,[]
+FIT3143,Parallel computing,6,[['FIT2004']],0,"['FIT4001', 'CSE4333']"
+FIT3152,Data analytics,6,"[['ETF1100', 'ETW1010', 'FIT2086', 'ETW2111', 'FIT1006', 'ETC1010', 'STA1010', 'ETC1000', 'ETW1000']]",0,['ETX2250']
+FIT3155,Advanced data structures and algorithms,6,[['FIT2004']],0,[]
+FIT3159,Computer architecture,6,"[['FIT1031', 'FIT1047', 'FIT1008', 'FIT2085']]",0,['FIT2069']
+FIT3161,Computer science project 1,6,[['FIT2004']],0,['FIT3144']
+FIT3162,Computer science project 2,6,[['FIT3161']],0,['FIT3144']
+FIT3170,Software engineering practice,12,"[['FIT2101'], ['FIT2107']]",0,[]
+FIT3171,Databases,6,[],0,"['FIT1004', 'FIT2094']"
+FIT3175,Usability,6,[],0,"['FIT3063', 'FIT2016', 'FIT3033']"
+FIT3179,Data visualisation,6,[],24,"['FIT2079', 'FIT3020']"
+FIT3181,Deep learning,6,[['FIT2086']],0,[]
+FIT3182,Big data management and processing,6,"[['FIT2094', 'FIT3171'], ['FIT2004']]",0,[]
+FIT3199,Industry work experience,0,"[['FIT1049', 'FIT1055']]",96,[]
+MAT1830,Discrete mathematics for computer science,6,[],0,"['MAT1077', 'MTH1112']"
+MAT1841,Continuous mathematics for computer science,6,[],0,"['ENG1090', 'MTH1020', 'MAT2003']"

@@ -1,0 +1,2329 @@
+[
+    {
+        "code": "FIT2032",
+        "name": "Industry-based learning",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite:\nAvailable to students in all undergraduate degrees of the Faculty of IT who have been accepted into the Industry Based Learning program with at least 72 credit points including 60 FIT or MAT credit points.\nPrerequisite units: One of FIT1045, FIT1053, FIT1048, FIT1051 or ENG1003.\n\n",
+        "credit_points": "18"
+    },
+    {
+        "code": "FIT1046",
+        "name": "Interactive media foundations",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1045",
+        "name": "Algorithms and programming fundamentals in python",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "October intake",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: VCE Mathematics Methods or Specialist Mathematics units 3 & 4 with a study\u00a0score of 25.Prohibitions:\u00a0FIT1029, FIT1053",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1033",
+        "name": "Foundations of 3D",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prohibition:\u00a0FIT2015, DIS1911",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1047",
+        "name": "Introduction to computer systems, networks and security",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "October intake",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibitions:\u00a0FIT1031 and FIT2078",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1008",
+        "name": "Introduction to computer science",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites: ((One of FIT1040, ECE2071, FIT1002) and FIT1029) or FIT1045 or FIT1053.Prohibitions:\u00a0CSE1303, CSC1030, FIT1015, FIT2085",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1050",
+        "name": "Web fundamentals",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1006",
+        "name": "Business information analysis",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisite: A study score of 25 in VCE Mathematics Methods or Specialist Maths units 3 & 4 or 30 in Further Maths units 3 & 4 or MTH1010 or equivalentProhibition:\u00a0BUS1100, ETC1000, ETF1100, ETP1100, ETS1102, ETW1000, ETW1102, ETX1100, MAT1097, STA1010, SCI1020",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1051",
+        "name": "Programming fundamentals in java",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "October intake",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibition:\u00a0FIT1002",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1003",
+        "name": "IT in organisations",
+        "offers": [
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibitions:\u00a0CSE1204, ELC1000, IMS1704, BUS1021, CPE1006",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1013",
+        "name": "Digital futures: IT for business",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibitions:\u00a0BUS1010, CSE1720, GCO1851, MMS1401",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1043",
+        "name": "Introduction to data science",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Or VCE Mathematics Methods Or Specialist Mathematics units 3 & 4 with a study score of 25 \nNote: For 2016 Further Mathematics with a study score of 35 will be accepted.",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1052",
+        "name": "Digital futures: IT shaping society",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1055",
+        "name": "IT professional practice and ethics",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite:\u00a0Requires a minimum of 12 points of FIT units.Prohibitions:\u00a0FIT1049, FIT2003",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1048",
+        "name": "Fundamentals of C++",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibition:\u00a0FIT2071",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1053",
+        "name": "Algorithms and programming in python (advanced)",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisite:\u00a0Students must be enrolled in the Bachelor of Computer Science Advanced (Honours) (C3001) or have achieved an ATAR score of 95 or above and have completed VCE Mathematics Methods or Specialist Mathematics units 3 & 4 with a study score of 25 or MTH1010.",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1044",
+        "name": "Mobile communications 1",
+        "offers": [
+            {
+                "location": "South Africa",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT1049",
+        "name": "IT professional practice",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Completion of 12 points of FIT units.Prohibition:\u00a0FIT2003",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2032",
+        "name": "Industry-based learning",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite:\nAvailable to students in all undergraduate degrees of the Faculty of IT who have been accepted into the Industry Based Learning program with at least 72 credit points including 60 FIT or MAT credit points.\nPrerequisite units: One of FIT1045, FIT1053, FIT1048, FIT1051 or ENG1003.\n\nIn addition prerequisite units for C2001 BCS and C2000 BInfoTech students: FIT1049 or equivalent\nIn addition for C2000 BInfoTech students completing the Business Information Systems major: FIT1013\n\nFor students enrolled in courses:\n\n3333 BBIS prerequisite units are: (FIT1040 or FIT1002) and FIT1013 and FIT2003.\n2770 BSE, 2380 BCS and 3334 BITS prerequisite units are: (FIT1040 or FIT1002) and FIT2003.\nProhibition:\u00a0BUS2000",
+        "credit_points": "18"
+    },
+    {
+        "code": "FIT2073",
+        "name": "Game design studio 1",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibition: FIT2048",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2082",
+        "name": "Computer science research project",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT2083",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2081",
+        "name": "Mobile application development",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Summer semester A",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT1045, FIT1048, FIT1051, FIT1053, FIT2071 or FIT1002 or equivalent units",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2098",
+        "name": "Virtual and augmented reality",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT1033 or DIS1911",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2099",
+        "name": "Object oriented design and implementation",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0(ENG1003 and ENG1060) or one of FIT1045, FIT1048, FIT1051, FIT1053, FIT1054, FIT1008 or FIT2071Prohibition:\u00a0FIT2024",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2092",
+        "name": "Interactive media studio 2",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibition:\u00a0FIT1012",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2001",
+        "name": "Systems development",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: 24 points of FIT unitsProhibition: BUS2021, CPE2003, CSE1204, CSE1205, GCO1813, GCO2601, GCO2852, GCO2826, IMS1001, IMS1002, IMS1805, IMS2071, IMS9001",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2108",
+        "name": "Industry based learning seminar",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisite: This unit is only available to students accepted into the Faculty of Information Technology Industry Based Learning Program.",
+        "credit_points": "0"
+    },
+    {
+        "code": "FIT2085",
+        "name": "Introduction to computer science for engineers",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Full year (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibitions:\u00a0FIT1015, FIT1008",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2002",
+        "name": "IT project management",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite:\u00a0\nCompletion of at least 36 points of study, including one of (FIT1040, FIT1045, FIT1053, FIT1048, FIT1051, ENG1003) (or equivalent).",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2004",
+        "name": "Algorithms and data structures",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: One of FIT1008, FIT1015, FIT1054, FIT2085 or CSE1303 and 6 points of Level 1 mathematics.Prohibitions:\u00a0CSE2304, FIT2009",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2091",
+        "name": "Interactive media studio 1",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibition:\u00a0FIT2026",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2094",
+        "name": "Databases",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0One of FIT1040, FIT1045, FIT1048, FIT1051, FIT1053 or equivalent introductory programming unitProhibition:\u00a0FIT1004, FIT3171",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2104",
+        "name": "Web database interface",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0FIT2094 or ((one of FIT1002, FIT1008, FIT1035, FIT2034, FIT2071, FIT2081) and FIT1004)Prohibitions:\u00a0FIT2028, FIT2029, FIT2076, FIT3043, FIT3057",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2090",
+        "name": "Business information systems and processes",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Completion of 24 points of FIT or BusEco units at level 1.Prohibitions:\u00a0ETC2490, BUS3502, FIT2006",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2107",
+        "name": "Software quality and testing",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibition: FIT4004",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2102",
+        "name": "Programming paradigms",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT1054 or FIT1008",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2105",
+        "name": "Creative computing: understanding art, science and technology",
+        "offers": [],
+        "rule": "Prerequisite: Students must have at least 18 credit points of 1st year units from any degree by the commencement of the program in the student's proposed year of participation AND be a fully enrolled Monash student at the time of the program.",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2014",
+        "name": "Theory of computation",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite:\n\nOne of FIT1045, FIT1048, FIT1051, FIT1053, ENG1003 or (FIT1040 and FIT1029), or an equivalent introductory programming unit\n\nAND\n\nOne of MAT1830, MTH1030, MTH1035, ENG1005 or equivalent\n\nProhibition:\u00a0\n\nCSE2303",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2093",
+        "name": "Introduction to cyber security",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisite:\u00a0One of FIT1047 or FIT1031 or equivalent and one of FIT1045, FIT1048, FIT1051, FIT1053 or equivalent introductory programmingProhibition:\u00a0FIT2078",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2089",
+        "name": "Mobile networks",
+        "offers": [
+            {
+                "location": "South Africa",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT1047 and FIT1044",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2087",
+        "name": "3D character animation",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibition:\u00a0FIT3001",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2086",
+        "name": "Modelling for data analysis",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0FIT1045 or FIT1053; and MAT1830; and one of MAT1841, MAT2003, MTH1030 or MTH1035",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2009",
+        "name": "Data structures and algorithms",
+        "offers": [
+            {
+                "location": "South Africa",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0FIT1007 or GCO1812 or GCO9808 or FIT2034Prohibitions:\u00a0FIT2004, FIT2071, FIT9015, GCO2817, GCO3512, GCO9807",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2083",
+        "name": "Innovation and research in computer science",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisite: Or equivalent unitsProhibition:\u00a0FIT2084, FIT4005",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2097",
+        "name": "Games programming 2",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT2096",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2095",
+        "name": "e-Business software technologies",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibitions: FIT2013, FIT3083",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2034",
+        "name": "Computer programming 2",
+        "offers": [
+            {
+                "location": "South Africa",
+                "period": "Summer semester B",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0FIT1040 or FIT1002 or FIT1051Prohibitions:\u00a0CPE1004, CSE1203, CSE2305, GCO1812, FIT1007",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2100",
+        "name": "Operating systems",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0One of FIT1047, FIT1031 or ENG1003Prohibition:\u00a0FIT2070",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT2101",
+        "name": "Software engineering process and management",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites: ENG1003, ENG1060, and one of FIT1051, FIT1045 or FIT1053",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3157",
+        "name": "Advanced web design",
+        "offers": [],
+        "rule": "Prerequisite: One of ENG1003, FIT1050 or FIT2092",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3169",
+        "name": "Immersive environments",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisite: One of FIT1033 or DIS1911",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3152",
+        "name": "Data analytics",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prohibition: ETX2250\nPrerequisite: One of ETF1100, ETW1010, FIT2086, ETW2111, FIT1006, ETC1010, STA1010, ETC1000 or ETW1000",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3153",
+        "name": "Research-based learning",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0FIT2083 or FIT2084",
+        "credit_points": "18"
+    },
+    {
+        "code": "FIT3170",
+        "name": "Software engineering practice",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Full year",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Full year",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Corequisite: FIT3077 and FIT2004\nPrerequisite: FIT2101 and FIT2107",
+        "credit_points": "12"
+    },
+    {
+        "code": "FIT3163",
+        "name": "Data science project 1",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prohibition: FIT3144\nPrerequisite: FIT2094, FIT1049, FIT2004, FIT2086 and FIT1043",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3155",
+        "name": "Advanced data structures and algorithms",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT2004",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3139",
+        "name": "Computational modelling and simulation",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0One of MAT1841, MAT2003, ENG1091, ENG1005, MTH1030, MTH1035 or equivalent, plus any introductory programming unit (e.g. FIT1045, FIT1048, FIT1051, FIT1053, FIT1040, FIT1002, ECE2071, TRC2400, or equivalent)",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3164",
+        "name": "Data science project 2",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibition: FIT3144\nPrerequisite: FIT3163",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3171",
+        "name": "Databases",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibition:\u00a0FIT1004, FIT2094",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3144",
+        "name": "Advanced computer science research project",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Full year",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT2083, FIT2004\nProhibition: FIT3036",
+        "credit_points": "12"
+    },
+    {
+        "code": "FIT3039",
+        "name": "Studio project 1",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0For course code 3334: ((FIT1040 or FIT1002) and FIT1004 and FIT1031 and FIT2001 and FIT2002 and (FIT2003 or FIT1003)) and ((FIT2026 and FIT2072) or FIT2049)For course code 3806: FIT2017 and FIT3003 and FIT3020For course code 3750: FIT2026 and FIT2072 and FIT3020For 2016 courses: (FIT2091 and FIT2087) or (FIT2073 and FIT2096)Prohibitions:\u00a0MMS3404, MMS3407",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3036",
+        "name": "Computer science project",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0FIT2004 or FIT3140Prohibitions:\u00a0CSE3301, FIT3144",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3172",
+        "name": "Sonics",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: 24 points of second year units",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3159",
+        "name": "Computer architecture",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0One of FIT1031, FIT1047, FIT1008 or FIT2085Prohibition:\u00a0FIT2069",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3162",
+        "name": "Computer science project 2",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Summer semester A",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT3161\nProhibition: FIT3144",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3098",
+        "name": "Social informatics",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisite: Completion of 36 points of studyProhibitions:\u00a0FIT5090, IMS3010, IMS3810, IMS5023",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3045",
+        "name": "Industry-based learning",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite:\nAvailable to students in all undergraduate degrees of the Faculty of IT who have been accepted into the Industry Based Learning program with at least 72 credit points including 60 FIT or MAT credit points\nPrerequisite units: One of FIT1045, FIT1053, FIT1048, FIT1051 or ENG1003.\nProhibition:\u00a0BUS3000",
+        "credit_points": "18"
+    },
+    {
+        "code": "FIT3180",
+        "name": "Data management for health informatics",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: From 2020 this unit will have a prerequisite of FIT1052",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3161",
+        "name": "Computer science project 1",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT2004\nProhibition: FIT3144",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3040",
+        "name": "Studio project 2",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibition:\u00a0MMS3408",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3156",
+        "name": "Advanced visual effects",
+        "offers": [],
+        "rule": "Prohibition:\u00a0FIT3008",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3146",
+        "name": "Maker lab",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Plus 90 points of any units",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3094",
+        "name": "Artificial life, artificial intelligence and virtual environments",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0FIT2049 or FIT2096",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3168",
+        "name": "IT forensics",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT2093",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3134",
+        "name": "Entrepreneurship",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Students must have completed at least 72 credit points in an undergraduate degree or double degree.",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3138",
+        "name": "Real time enterprise systems",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Completion of 12 points of level two units from Information Technology, Science or Engineering or equivalent.Prohibition:\u00a0FIT3012, FIT3133, FIT3068",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3199",
+        "name": "Industry work experience",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Summer semester A",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Students must have completed a minimum of 96 credit points including FIT1049 or FIT1055 Professional practice.",
+        "credit_points": "0"
+    },
+    {
+        "code": "FIT3160",
+        "name": "Mobile data management",
+        "offers": [
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites: (FIT1004 or FIT2094) and FIT1044",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3047",
+        "name": "Industry experience studio project 1",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\nFor students in the Bachelor of Information Technology (C2000) and BCIS (4307): (One of FIT1045, FIT1048, FIT1051 or FIT1053) and FIT1047 and FIT1049 and (one of FIT2001 or FIT2099) and FIT2002 and (one of FIT2094 or FIT3171) and (12 points of FIT units at level 1) and (12 points of FIT units at level 2 or 3) and must be core in the student's degree program and completion of a total of 90 points towards the degree.Prohibitions: FIT2032, FIT3039, FIT3040, FIT3045",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3173",
+        "name": "Software security",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisite: FIT1053 or FIT1045 or FIT1048 or FIT1051",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3174",
+        "name": "IT strategy and governance",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisite: Completion of 24 points of second year level of IT or its equivalent studyProhibition:\u00a0FIT3066, FIT3019, FIT3136",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3165",
+        "name": "Computer networks",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisites: (FIT1047 or FIT1031) and one of FIT1045, FIT1048, FIT1051 or FIT1008",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3048",
+        "name": "Industry experience studio project 2",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibitions:\u00a0CPE3200, CPE3300, CSE3200, CSE3301, FIT2032, FIT3015, FIT3016, FIT3017, FIT3025, FIT3026, FIT3038, FIT3039, FIT3040, FIT3045, GCO3819, GCO3700, GCO3800, GCO3900, GCO3800A, IMS3000, IMS3501, IMS3502",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3046",
+        "name": "Operating environments",
+        "offers": [],
+        "rule": "Prerequisites:\u00a0FIT1047 or FIT1031 or FIT1001Prohibitions:\u00a0FIT2022, FIT2070, GCO2814, GCO3818",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3175",
+        "name": "Usability",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibitions:\u00a0\u00a0FIT3063, FIT2016, FIT3033",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3158",
+        "name": "Business decision modelling",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "Summer semester B",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: And completion of 24 points at Level 1 from FIT or BusEco",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3167",
+        "name": "Mobile communications 2",
+        "offers": [],
+        "rule": "",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3031",
+        "name": "Network security",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "Summer semester B",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites: One of (FIT1047, FIT1031, FIT1019, FIT1005, FIT2008 or ECE2041) and FIT2093",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3176",
+        "name": "Advanced database design",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0FIT1004 or FIT2094 or FIT3171Prohibition:\u00a0FIT2077, FIT3118, FIT4038",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3154",
+        "name": "Advanced data analysis",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Or related statistical background",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3179",
+        "name": "Data visualisation",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Completion of 24 points at first year.Prohibition:\u00a0FIT2079, FIT3020",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3081",
+        "name": "Image processing",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite:\u00a0FIT2004 (or CSE2304)Prohibition:\u00a0CSE3314",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3088",
+        "name": "Computer graphics",
+        "offers": [],
+        "rule": "Prerequisites:\u00a0FIT2004 or CSE2304Prohibitions:\u00a0CSE3313, DGS3622, FIT3005, GCO3817",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3145",
+        "name": "Game design studio 2",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0(FIT2073 and FIT2096) or (FIT2049 and FIT2073)",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3178",
+        "name": "iOS app development",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisites\nOne of (FIT1045, FIT1053, FIT1048, FIT1051, FIT1002) or (FIT1040 AND a second level programming unit - one of (FIT1008, FIT1035, FIT2029, FIT2034, FIT2071, FIT2076, FIT2081, FIT2085 or equivalent)Prohibitions\nFIT3027, FIT4039",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3182",
+        "name": "Big data management and processing",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT2094 or FIT3171, and FIT2004",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3077",
+        "name": "Software engineering: Architecture and design",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Prerequisite:\nFIT2099 or (FIT2001 and (FIT2004 or FIT2024 or FIT2081 or CSE2304))",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3080",
+        "name": "Intelligent systems",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites:\u00a0FIT2004 or CSE2304Prohibitions: CSE2309, CSE3309, DGS3691",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3143",
+        "name": "Parallel computing",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite:FIT2004\nProhibitions:\u00a0FIT4001, CSE4333",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3181",
+        "name": "Deep learning",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: FIT2086",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT3003",
+        "name": "Business intelligence and data warehousing",
+        "offers": [
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisites: One of FIT1004, FIT2094 or FIT3171",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4448",
+        "name": "Honours thesis final",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prohibition: CPE4000, CSE4000, IMS4000, FIT4126, FIT4186, FIT4246, FIT4606Only available to students enrolled in the Honours stream of the Bachelor of Software Engineering.",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4042",
+        "name": "Industry-based learning",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: This unit is available to students enrolled in the Software Engineering specialisation of the Bachelor of Engineering (Honours) at Clayton campus who have been accepted into the industry-based learning placement program with at least 48 credit points of study accumulated for units offered by Faculty of Information Technology.",
+        "credit_points": "18"
+    },
+    {
+        "code": "FIT4000",
+        "name": "Honours thesis extension",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Associate Dean (Education) approval required.Prohibition: Students are not permitted to enrol in this unit more than once.",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4009",
+        "name": "Advanced topics in intelligent systems",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Completion of the Bachelor of Computer Science or equivalent to the entry requirements for the Honours program. Students must also have enrolment approval from the Honours Coordinator.\nFor students enrolled in E3001, E3002, E3005, E3010, E3011, E3007 completing the Software Engineering specialisation: completion of 144 credit points of study in the Bachelor of Software Engineering (Honours) degree.",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4010",
+        "name": "Advanced topics in algorithms and discrete structures",
+        "offers": [],
+        "rule": "Prerequisite: Completion of the Bachelor of Computer Science or equivalent to the entry requirements for the Honours program. Students must also have enrolment approval from the Honours Coordinator.\nFor students enrolled in E3001, E3002, E3005, E3010, E3011, E3007 completing the Software Engineering specialisation: completion of 144 credit points of study in the Bachelor of Software Engineering (Honours) degree.",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4002",
+        "name": "Software engineering industry experience studio project",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Full year",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Full year",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            }
+        ],
+        "rule": "Corequisite: For 2770 students only: FIT4004 or FIT5171\nProhibition:\u00a0CSE4002",
+        "credit_points": "12"
+    },
+    {
+        "code": "FIT4003",
+        "name": "Software engineering research project",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Must have completed 120 credit points of study in the Bachelor of Software Engineering (Honours) degree.Prohibitions:\u00a0FIT4013, FIT4126, FIT4186, FIT4246, FIT4606",
+        "credit_points": "12"
+    },
+    {
+        "code": "FIT4039",
+        "name": "Android and iOS development",
+        "offers": [],
+        "rule": "Prohibition:\u00a0CSE3211, FIT3027",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4008",
+        "name": "Reading unit",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Admission to the Bachelor of Computer Science (Honours) or Bachelor of Business Information Systems (Honours) or Bachelor of Information Technology and Systems (Honours) program. Enrolment in FIT4008 is subject to the approval of the ADE on the advice of the relevant Honours program leaders.",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4441",
+        "name": "Honours thesis part 1",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Corequisite: For all students OTHER than C3001: FIT4005Prerequisite: Admission to an FIT Honours program.\nStudents in C3001 must have competed 144 credit points towards their degree including FIT2083.Prohibition:\u00a0CPE4000, CSE4000, IMS4000, FIT4126, FIT4186, FIT4246, FIT4606",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4442",
+        "name": "Honours thesis part 2",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "South Africa",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Admission to an FIT Honours program or stream.Prohibition:\u00a0CPE4000, CSE4000, IMS4000, FIT4126, FIT4186, FIT4246, FIT4606",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4444",
+        "name": "Honours thesis final",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Admission to an FIT Honours program.Prohibition:\u00a0CPE4000, CSE4000, IMS4000, FIT4126, FIT4186, FIT4246, FIT4606",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4443",
+        "name": "Honours thesis part 3",
+        "offers": [
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Admission to an FIT Honours program or stream.Prohibition:\u00a0CPE4000, CSE4000, IMS4000, FIT4126, FIT4186, FIT4246, FIT4606",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4012",
+        "name": "Advanced topics in computational science",
+        "offers": [],
+        "rule": "Prerequisite: Completion of the Bachelor of Computer Science or equivalent to the entry requirements for the Honours program. Students must also have enrolment approval from the Honours Coordinator.\nFor students enrolled in E3001, E3002, E3005, E3010, E3011, E3007 completing the Software Engineering specialisation: completion of 144 credit points of study in the Bachelor of Software Engineering (Honours) degree.",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4005",
+        "name": "Research methods in information technology",
+        "offers": [
+            {
+                "location": "Caulfield",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Caulfield",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: Foundation knowledge in computer science or business information systems or information technology and systems fundamentals.\nFor students enrolled in E3001, E3002, E3005, E3010, E3011, E3007: completion of 144 credit points of study in the Bachelor of Software Engineering (Honours) degree.Prohibition: ITW4001, IMS5036, IMS4036, BUS5000, CSE4910, GCO4010, CSE4650, FIT2083*, FIT2084 FIT5125, FIT5143, FIT5185, FIT5190* BCS Honours students who have completed FIT2083 are exempt from completing FIT4005 as part of their Honours study but must select an alternative unit with the approval of their course director. However, FIT4005 remains the preferred research methods unit option for BCS Honours students.",
+        "credit_points": "6"
+    },
+    {
+        "code": "FIT4007",
+        "name": "Advanced topics in information systems",
+        "offers": [],
+        "rule": "Corequisite: FIT4005",
+        "credit_points": "6"
+    },
+    {
+        "code": "MAT1830",
+        "name": "Discrete mathematics for computer science",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "October intake",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "First semester (Fully flex)",
+                "mode": "Flexible"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: VCE Specialist Mathematics or Mathematical Methods units 3 and 4 with a raw study score of at least 25 or Further maths with a raw study score of at least 35.Prohibition:\u00a0MAT1077, MTH1112",
+        "credit_points": "6"
+    },
+    {
+        "code": "MAT1841",
+        "name": "Continuous mathematics for computer science",
+        "offers": [
+            {
+                "location": "Malaysia",
+                "period": "First semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Clayton",
+                "period": "Second semester",
+                "mode": "On-campus"
+            },
+            {
+                "location": "Malaysia",
+                "period": "Second semester",
+                "mode": "On-campus"
+            }
+        ],
+        "rule": "Prerequisite: VCE Specialist Mathematics or Mathematical Methods units 3 and 4 with a study score of at least 25 or Further maths with a study score of at least 35.Prohibitions:\u00a0ENG1090, MTH1020, MAT2003",
+        "credit_points": "6"
+    }
+]
