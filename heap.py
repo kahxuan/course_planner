@@ -19,7 +19,7 @@ class Heap:
 
 
     def add(self, elem):
-        elem.deleted = False
+        # elem.deleted = False
         self.array.append(elem)
         self.rise(self.get_count())
 

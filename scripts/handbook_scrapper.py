@@ -3,27 +3,32 @@ from bs4 import BeautifulSoup
 import json
 import time
 import traceback
+import os
+
+import sys
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '..'))
+from config import data_dir, chrome_driver_dir
 
 offer_info_desc = ['location', 'period', 'mode']
 units_info = []
 
-f = open('fit_code.txt')
+f = open(os.path.join(data_dir, 'fit_code.txt'))
 code_ls = [line for line in f]
 f.close()
 
+# continue from previous scrapping
 try:
-    with open('data.json') as f:
+    with open(os.path.join(data_dir, 'raw.json')) as f:
         units_info = json.load(f)
 except Exception:
     units_info = []
-
 code_ls = code_ls[len(units_info):]
 
-driver = webdriver.Chrome("/Users/kx/chromedriver")
+driver = webdriver.Chrome(chrome_driver_dir)
 
-for  code in code_ls:
-    code_str = str(code)
-    driver.get("https://handbook.monash.edu/2020/units/" + code_str)
+for code in code_ls:
+
+    driver.get("https://handbook.monash.edu/2020/units/" + str(code))
     time.sleep(5)
     content = driver.page_source
     soup = BeautifulSoup(content, features="lxml")
@@ -37,7 +42,6 @@ for  code in code_ls:
             unit_info['name'] = '-'.join(code_name[1:]).strip()
             unit_info['offers'] = []
 
-            soup = BeautifulSoup(content, features="lxml")
             info = soup.findAll('div', attrs={'class':'css-ky59ff-SAccordionContentContainer e1450wuy9'})
 
             rule_i = -1
@@ -75,7 +79,10 @@ for  code in code_ls:
         traceback.print_exc()
         break
 
-with open('data.json', 'w') as f:
+driver.quit()
+
+
+with open(os.path.join(data_dir, 'raw.json'), 'w') as f:
     json.dump(units_info, f, indent=4)
 
-driver.quit()
+

@@ -30,6 +30,8 @@ FIT3155,Advanced data structures and algorithms,6,[['FIT2004']],0,[]
 FIT3159,Computer architecture,6,"[['FIT1031', 'FIT1047', 'FIT1008', 'FIT2085']]",0,['FIT2069']
 FIT3161,Computer science project 1,6,[['FIT2004']],0,['FIT3144']
 FIT3162,Computer science project 2,6,[['FIT3161']],0,['FIT3144']
+FIT3163,Data science project 1,6,"[['FIT2094'], ['FIT1049'], ['FIT2004'], ['FIT2086'], ['FIT1043']]",0,['FIT3144']
+FIT3164,Data science project 2,6,[['FIT3163']],0,['FIT3144']
 FIT3170,Software engineering practice,12,"[['FIT2101'], ['FIT2107']]",0,[]
 FIT3171,Databases,6,[],0,"['FIT1004', 'FIT2094']"
 FIT3175,Usability,6,[],0,"['FIT3063', 'FIT2016', 'FIT3033']"

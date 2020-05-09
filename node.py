@@ -10,8 +10,11 @@ class UnitNode():
         self.prohibiting_nodes = []
 
         self.priority = None
+        self.priority_mult = 0.5
         self.incoming_count = 0
         self.prohibited = 0
+
+        self.deleted = False
     
     def __str__(self):
         if self.unit_code is None:
@@ -30,12 +33,12 @@ class UnitNode():
         return self.offer[sem - 1] == 1
 
 
-    def is_req_met(self, cur_point):
-        # return cur_point >= self.req_point \
-        #     and self.prohibited <= 0 \
-        #     and self.incoming_count == 0
+    def is_pp_req_met(self):
         return self.prohibited <= 0 and \
             self.incoming_count <= 0
+
+    def get_req_point(self):
+        return self.req_point
 
     def remove_incoming_edge(self):
         self.incoming_count -= 1
@@ -52,5 +55,6 @@ class UnitNode():
         print(self.priority)
         print(self.incoming_count)
         print(self.prohibited)
-        print(self.is_req_met(0))
-        print('----------------')
+        print(self.is_pp_req_met())
+        print(self.deleted)
+        print('---------------------')

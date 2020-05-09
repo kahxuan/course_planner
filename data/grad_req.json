@@ -1,0 +1,51 @@
+{
+    "credit_point": 144,
+    "core": [
+        "FIT1008",
+        "FIT1045",
+        "FIT1047",
+        "FIT2004",
+        "FIT2014",
+        "MAT1830",
+        "MAT1841",
+        "FIT1055"
+    ],
+    "data_sc": {
+        "core": [
+            "FIT1043",
+            "FIT2086",
+            "FIT3171",
+            "FIT3179",
+            "FIT3163",
+            "FIT3164"
+        ],
+        "elective": [
+            "FIT3152",
+            "FIT3181",
+            "FIT3182"
+        ],
+        "elective_num": 2
+    },
+    "adv_cs": {
+        "core": [
+            "FIT2099",
+            "FIT2102",
+            "FIT3143",
+            "FIT3155",
+            "FIT3161",
+            "FIT3162"
+        ],
+        "elective": [
+            "FIT3031",
+            "FIT3077",
+            "FIT3080",
+            "FIT3081",
+            "FIT3152",
+            "FIT3159",
+            "FIT3175",
+            "FIT3181",
+            "FIT3182"
+        ],
+        "elective_num": 1
+    }
+}
