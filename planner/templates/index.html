@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FIT Course Planner</title>
+    <link type='text/css' rel="stylesheet" href={{url_for('static', filename='styles/bootstrap.css')}}/>
+</head>
+
+<nav class="navbar navbar-light bg-light">
+  <span class="navbar-brand">Monash FIT Course Planner</span>
+</nav>
+
+
+<body><form method="post" action="">
+
+    <div class="container col-9 pt-4">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            Start at
+                        </div>
+                    </div>
+
+                    <select name="start_year" class="custom-select">
+                        {% for year in range(2015, 2026) %}
+                            {% if year == start_year %}
+                                <option value="{{year}}" selected>{{year}}</option>
+                            {% else %}
+                                <option value="{{year}}">{{year}}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+
+                    <div class="input-group-prepend input-group-append">
+                        <div class="input-group-text">
+                            Semester
+                        </div>
+                    </div>
+
+                    <select name="start_sem" class="custom-select">
+                        {% if start_sem == 1 %}
+                            <option value="1" selected>One</option>
+                            <option value="2">Two</option>
+                        {% else %}
+                            <option value="1">One</option>
+                            <option value="2" selected>Two</option>
+                        {% endif %}
+                    </select>
+                </div>
+            </div>
+            
+            <div class="col-sm-5">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            Specialisation
+                        </div>
+                    </div>
+
+                    <select name="major" class="custom-select">
+                        {% if major == "adv_cs" %}
+                            <option value="adv_cs" selected>Advanced computer science</option>
+                            <option value="data_sc">Data science</option>
+                        {% else %}
+                            <option value="adv_cs">Advanced computer science</option>
+                            <option value="data_sc" selected>Data science</option>
+                        {% endif %}
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <button type="submit" class="btn-block btn btn-outline-secondary">Plan</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container col-9 pt-4">
+        <p>
+            Select the unit(s) that you have completed or you wish to take (if applicable):
+        </p>
+    </div>    
+
+    <div class="container col-9">
+
+
+        <table class="table">
+            <tbody>
+                {% for sem in plan%}
+                    <tr>
+                        {% if loop.index == 1 %}
+                            <th scope="row">1st sem</th>
+                        {% elif loop.index == 2 %}
+                            <th scope="row">2nd sem</th>
+                        {% else %}
+                            <th scope="row">{{loop.index}}th sem</th>
+                        {% endif %}
+                        
+                        {% set outer_loop = loop %}
+                        {% for unit in sem %}
+                            {% if unit is not none %}
+                                <td>
+                                    <select name="{{outer_loop.index}}_{{loop.index}}" class="custom-select">
+                                        <option></option>
+                                        {% for code in units%}
+                                            {% if code == unit %}
+                                                <option value="{{code}}" selected>{{code}}</option>
+                                            {% else %}
+                                                <option value="{{code}}">{{code}}</option>
+                                            {% endif %}
+                                        {% endfor %}
+                                        }
+                                    </select>
+                                </td>
+                            {% else %}
+                                <td>
+                                    <select name="{{outer_loop.index}}_{{loop.index}}" class="custom-select">
+                                        <option></option>
+                                        {% for code in units%}
+                                            <option value="{{code}}">{{code}}</option>
+                                        {% endfor %}
+                                        }
+                                    </select>
+                                </td>
+                            {% endif %}
+                        {% endfor %}
+                    </tr>
+                {% endfor%}
+            </tbody>
+        </table>
+        
+    </div>
+
+</form></body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FIT Course Planner</title>
+    <link type='text/css' rel="stylesheet" href={{url_for('static', filename='styles/bootstrap.css')}}/>
+</head>
+
+<nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand">Monash FIT Course Planner</span>
+</nav>
+
+
+<body><form method="post" action="">
+   
+    <div class="container col-9 pt-4">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            Start at
+                        </div>
+                    </div>
+
+                    <select name="start_year" class="custom-select">
+                        <option value="{{year}}" selected disabled>{{start_year}}</option>
+                    </select>
+
+                    <div class="input-group-prepend input-group-append">
+                        <div class="input-group-text">
+                            Semester
+                        </div>
+                    </div>
+
+                    <select name="start_sem" class="custom-select">
+                        {% if start_sem == 1 %}
+                            <option value="1" selected disabled>One</option>
+                            <option value="2" disabled>Two</option>
+                        {% else %}
+                            <option value="1" disabled>One</option>
+                            <option value="2" selected disabled>Two</option>
+                        {% endif %}
+                    </select>
+                </div>
+            </div>
+            
+            <div class="col-sm-5">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">
+                            Specialisation
+                        </div>
+                    </div>
+
+                    <select name="major" class="custom-select">
+                        {% if major == "adv_cs" %}
+                            <option value="adv_cs" selected disabled>Advanced computer science</option>
+                            <option value="data_sc" disabled>Data science</option>
+                        {% else %}
+                            <option value="adv_cs" disabled>Advanced computer science</option>
+                            <option value="data_sc" selected disabled>Data science</option>
+                        {% endif %}
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                <button type="submit" class="btn-block btn btn-outline-secondary">Edit</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container col-9 pt-4">
+
+
+        <table class="table table-hover text-center">
+            <tbody>
+                {% for sem in plan%}
+                    <tr>
+                        {% set year = start_year %}
+                        <th scope="row">{{start_year + (loop.index + start_sem) // 2 - 1}} S{{(start_sem + loop.index) % 2 + 1}}</th>
+                        {% set outer_loop = loop %}
+                        {% for unit in sem %}    
+                            <td>
+                                <b>{{unit.unit_code}}</b><br>
+                                <a class="text-secondary" target="_blank" href="https://handbook.monash.edu/2020/units/{{unit.unit_code}}"><small>{{unit.unit_name}}</small></a>
+                            </td>
+                        {% endfor %}
+                    </tr>
+
+                    {% if loop.index % 2 == 0 %}
+                    {% set year = year + 1 %}
+                    {% endif %}
+
+                {% endfor%}
+            </tbody>
+        </table>
+        
+    </div>
+
+    <div class="container text-center pt-2">
+        <p>
+            Note that the suggested course map is based on the requirements stated in <a class="text-secondary" target="_blank" href="https://handbook.monash.edu">Monash University Handbook 2020</a> and is subjected to future changes.
+        </p>
+    </div>
+
+</form>
+
+
+</body>
+</html>
