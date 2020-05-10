@@ -19,7 +19,6 @@ FIT2107,Software quality and testing,6,[],0,['FIT4004']
 FIT3003,Business intelligence and data warehousing,6,"[['FIT1004', 'FIT2094', 'FIT3171']]",0,[]
 FIT3031,Network security,6,"[['FIT1047', 'FIT1031', 'FIT1019', 'FIT1005', 'FIT2008', 'ECE2041', 'FIT1005'], ['FIT2093']]",0,[]
 FIT3036,Computer science project,6,"[['FIT2004', 'FIT3140']]",0,"['CSE3301', 'FIT3144']"
-FIT3045,Industry-based learning,18,"[['FIT1045', 'FIT1053', 'FIT1048', 'FIT1051', 'ENG1003']]",72,['BUS3000']
 FIT3077,Software engineering: Architecture and design,6,[['FIT2099']],0,[]
 FIT3080,Intelligent systems,6,"[['FIT2004', 'CSE2304']]",0,"['CSE2309', 'CSE3309', 'DGS3691']"
 FIT3081,Image processing,6,"[['FIT2004', 'CSE2304']]",0,['CSE3314']
@@ -38,6 +37,5 @@ FIT3175,Usability,6,[],0,"['FIT3063', 'FIT2016', 'FIT3033']"
 FIT3179,Data visualisation,6,[],24,"['FIT2079', 'FIT3020']"
 FIT3181,Deep learning,6,[['FIT2086']],0,[]
 FIT3182,Big data management and processing,6,"[['FIT2094', 'FIT3171'], ['FIT2004']]",0,[]
-FIT3199,Industry work experience,0,"[['FIT1049', 'FIT1055']]",96,[]
 MAT1830,Discrete mathematics for computer science,6,[],0,"['MAT1077', 'MTH1112']"
 MAT1841,Continuous mathematics for computer science,6,[],0,"['ENG1090', 'MTH1020', 'MAT2003']"

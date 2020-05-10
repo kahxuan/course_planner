@@ -4,21 +4,18 @@ from heap import Heap
 
 class CourseGraph:
 
-    def __init__(self, units, offers, grad_req):
+    def __init__(self, units, offers):
 
         self.cummulated_cp = 0
         self.unit_nodes = {}
         self.ready = [Heap(), Heap()]
         self.order = []
-        self.wait_cp = [[] for _ in range(grad_req['credit_point'] // 6)]
+        self.wait_cp = None
         self.grad = False
         
         self.set_units(units)
         self.set_offers(offers)
-        self.set_core(grad_req)
-        self.set_priority()
-        self.set_ready()
-
+        
 
     def add_edge(self, from_node, to_node):
         new_edge = Edge(from_node, to_node)
@@ -62,7 +59,7 @@ class CourseGraph:
         
 
     def set_offers(self, offers):
-        f = lambda sem_no : lambda code: self.unit_nodes[code].offer_in(sem_no)
+        f = lambda sem_no : lambda code: self.unit_nodes[code].set_offer(sem_no)
         offers[offers['period'] == 'First semester']['code'].apply(f(1))
         offers[offers['period'] == 'Second semester']['code'].apply(f(2))
 
@@ -70,12 +67,11 @@ class CourseGraph:
     def set_core(self, grad_req):
         grad_node = UnitNode('grad', 0, grad_req['credit_point'])
         for unit in grad_req['core']:
-            self.unit_nodes[unit].priority_mult += 2
+            self.unit_nodes[unit].priority_mult += 3
             for node in self.unit_nodes[unit].prohibiting_nodes:
                 node.prohibited += 1
 
             self.add_edge(self.unit_nodes[unit], grad_node)
-
 
         elec_node = UnitNode(None, 0, 0)
         for unit in grad_req['elective']:
@@ -134,24 +130,39 @@ class CourseGraph:
                 self.wait_cp[(node.get_req_point() // 6) - 1].append(node)
 
 
-
     def set_ready(self):
         for unit in self.unit_nodes:
             self.eval_req(self.unit_nodes[unit])
-            # if self.unit_nodes[unit].is_pp_req_met():
-            #     self.add_to_ready(self.unit_nodes[unit])
 
 
-    def plan(self, start_sem):
+    def finalise_initial(self, grad_req):
+        self.wait_cp = [[] for _ in range(grad_req['credit_point'] // 6)]
+        self.set_core(grad_req)
+        self.set_priority()
+        self.set_ready()
+
+
+    def plan(self, start_sem, fixed=[]):
+
+        for units in fixed:
+            for unit in units:
+                self.unit_nodes[unit].deleted = True
 
         cur_sem = start_sem - 1
         stucked = False
+
         while not self.grad and not stucked:
 
             cur_order = []
-
             stucked = False
             cur_sem_cp = 0
+
+            if len(fixed) > cur_sem - start_sem + 1:
+                for fixed_unit in fixed[cur_sem - start_sem + 1]:
+                    cur_sem_cp += self.unit_nodes[fixed_unit].credit_point
+                    cur_order.append(self.unit_nodes[fixed_unit])
+
+
             while not stucked and cur_sem_cp < 24:
 
                 node = self.ready[cur_sem % 2].extract_max()
@@ -162,7 +173,7 @@ class CourseGraph:
                         self.ready[(cur_sem + 1) % 2].delete(node)
                     cur_order.append(node)
 
-                else:
+                elif len(cur_order) == 0:
                     stucked = True
 
             for i in range(self.cummulated_cp // 6, min((self.cummulated_cp + cur_sem_cp) // 6, len(self.wait_cp))):
@@ -180,22 +191,27 @@ class CourseGraph:
 
                 for node in cur_order[i].get_other_ends():
                     node.remove_incoming_edge()
-                    waiting_list.append(node)
+                    waiting_list.append(node) 
 
-
+            # evaluate the units in waiting list after completing the all the units 
+            # in current sem
             for node in waiting_list:
                 self.eval_req(node)
 
-            m = self.ready[cur_sem % 2].get_max()
+            # remove intermediate nodes that do not represent a unit to remove the
+            # outgoing edges and evaluate the connected units 
+            imd_node = self.ready[cur_sem % 2].get_max()
 
-            while m is not None and (m.unit_code is None or m.unit_code == 'grad'):
-                imd_node = self.ready[cur_sem % 2].extract_max() # TODO
+            while imd_node is not None and (imd_node.unit_code is None or imd_node.unit_code == 'grad'):
+
+                imd_node = self.ready[cur_sem % 2].extract_max()
                 self.ready[(cur_sem + 1) % 2].delete(imd_node)
+
                 for item in imd_node.get_other_ends():
                     item.remove_incoming_edge()
                     self.eval_req(item)
 
-                m = self.ready[cur_sem % 2].get_max()
+                imd_node = self.ready[cur_sem % 2].get_max()
 
             self.order.append(cur_order)
             cur_sem += 1

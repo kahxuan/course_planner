@@ -4,7 +4,6 @@ import json
 import time
 import traceback
 import os
-
 import sys
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '..'))
 from config import data_dir, chrome_driver_dir
@@ -82,7 +81,7 @@ for code in code_ls:
 driver.quit()
 
 
-with open(os.path.join(data_dir, 'raw.json'), 'w') as f:
+with open(os.path.join(data_dir, 'raw2.json'), 'w') as f:
     json.dump(units_info, f, indent=4)
 
 

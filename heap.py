@@ -1,6 +1,8 @@
 class Heap:
+
     def __init__(self):
         self.array = [None]
+
 
     def __str__(self):
         ls = []
@@ -9,6 +11,7 @@ class Heap:
             if self.array[i].deleted:
                 ls[-1] += "(DELETED)"
         return str(ls)
+
 
     def is_empty(self):
         return self.get_count() == 0
@@ -19,7 +22,6 @@ class Heap:
 
 
     def add(self, elem):
-        # elem.deleted = False
         self.array.append(elem)
         self.rise(self.get_count())
 
@@ -72,6 +74,7 @@ class Heap:
             retval.deleted = True
 
         return retval
+        
         
     def get_max(self):
         while self.get_count() > 0 and self.array[1].deleted:
