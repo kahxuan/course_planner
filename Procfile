@@ -1,1 +1,1 @@
-web: python3 planner/apps.py
+web: python3 planner/app.py
