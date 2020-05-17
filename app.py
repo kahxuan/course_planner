@@ -46,7 +46,7 @@ def show_edit(major, start_year, start_sem, fixed):
             start_sem=request.form['start_sem'],
             fixed=fixed))
 
-    fixed = eval(fixed)
+    fixed = eval(fixed) + ([] * (6 - len(fixed)))
     plan = [None] * len(fixed)
     for i in range(len(fixed)):
         plan[i] = fixed[i] + max(0, 4 - len(fixed[i])) * [None]
