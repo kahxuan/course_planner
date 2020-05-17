@@ -1,1 +1,1 @@
-web: python3 planner/app.py
+web: gunicorn --chdir ~/desktop/course_planner/planner app:app
