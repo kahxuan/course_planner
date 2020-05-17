@@ -48,7 +48,7 @@ For each semester, units are selected using the following steps until the course
 3. Evaluate adjacent nodes: add to the list if they have no incoming edge and all requirements are met.
 4. Clear all intermediate nodes and their outgoing edges and evaluate adjacent nodes.
 
-![](https://github.com/kahxuan/course_planner/blob/master/static/images/graph-illustration.gif)
+<img src="https://github.com/kahxuan/course_planner/blob/master/static/images/graph-illustration.gif" width="700">
 
 ### Priority queues
 
