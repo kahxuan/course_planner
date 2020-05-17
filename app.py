@@ -1,8 +1,8 @@
-from flask import *
-from planner import get_units, plan
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), '..'))
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'planner'))
+from flask import *
+from planner import get_units, plan
 from config import data_dir
 
 app = Flask(__name__)

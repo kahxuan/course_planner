@@ -1,1 +1,1 @@
-web: gunicorn --chdir ~/desktop/course_planner/planner app:app
+web: gunicorn app:app
