@@ -27,17 +27,17 @@ This algorithm is based on topological sorting, but with one or more priority qu
 
 X is a prerequisite to Y:
 
-![](https://github.com/kahxuan/course_planner/blob/master/static/images/basic-prereq.png/)
+<img src="https://github.com/kahxuan/course_planner/blob/master/static/images/basic-prereq.png" width="200">
 
 
 Any two of (W, X, Y) can together be a prerequisite to Z:
 
-![](https://github.com/kahxuan/course_planner/blob/master/static/images/optional-prereq.png)
+<img src="https://github.com/kahxuan/course_planner/blob/master/static/images/optional-prereq.png" width="200">
 
 
 X is a prohibition to Y:
 
-![](https://github.com/kahxuan/course_planner/blob/master/static/images/prohibition.png)
+<img src="https://github.com/kahxuan/course_planner/blob/master/static/images/prohibition.png" width="200">
 
 When X is visited, the incoming edge count of Y will be incremented.
 
