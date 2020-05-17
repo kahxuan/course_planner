@@ -27,7 +27,6 @@ def plan(major, start_sem, fixed):
     req = grad_req[major]
     req['credit_point'] = cp
     req['core'] += grad_req['core']
-    print(req['core'])
 
     g = CourseGraph(units, offers)
     g.finalise_initial(req)
