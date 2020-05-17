@@ -1,8 +1,6 @@
 # Course Planner
 
-Students often struggle with course planning given that some units are only offered in selected semester.
-
-This application guides students on planning their course structure by generating a personalised course map based on the student's intake, specialisation and units completed. Currently, this course planner is only available for Monash University Malaysia computer science units.
+This application guides students on planning their course structure by generating a personalised course map based on the student's intake, specialisation and units completed. This overcomes the struggle in course planning given that some units are only offered in selected semester. Currently, this course planner is only available for Monash University Malaysia computer science units.
 
 Try it out at: https://getcoursemap.herokuapp.com/
 
@@ -28,14 +26,17 @@ This algorithm is based on topological sorting, but with one or more priority qu
 ### Requirements as edges
 
 X is a prerequisite to Y:
+
 ![](https://github.com/kahxuan/course_planner/blob/master/static/images/basic-prereq.png/)
 
 
 Any two of (W, X, Y) can together be a prerequisite to Z:
+
 ![](https://github.com/kahxuan/course_planner/blob/master/static/images/optional-prereq.png)
 
 
 X is a prohibition to Y:
+
 ![](https://github.com/kahxuan/course_planner/blob/master/static/images/prohibition.png)
 
 When X is visited, the incoming edge count of Y will be incremented.
@@ -49,6 +50,6 @@ For each semester, units are selected using the following steps until the course
 
 ![](https://github.com/kahxuan/course_planner/blob/master/static/images/graph-illustration.gif)
 
-### Priority queue
+### Priority queues
 
 Separate heaps containing ready nodes are maintained for the two different semesters, where each heap only contains the units offered in the corresponding semester. The heaps are used alternately in each iteration (semester). In the heaps, core units and prerequisite units are assigned to a higher priority.
