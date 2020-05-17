@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'planner'))
 from flask import *
-from planner import get_units, plan
+from planner import get_units, plan, check_fixed
 from config import data_dir
 
 app = Flask(__name__)
@@ -30,10 +30,20 @@ def show_edit(major, start_year, start_sem, fixed):
                 j += 1
             fixed.append(units)
             i += 1
+
+        errors = check_fixed(fixed, int(request.form['start_sem']))
+        if len(errors) > 0:
+            return redirect(url_for('show_errors', 
+                major=request.form['major'], 
+                start_year=request.form['start_year'],
+                start_sem=request.form['start_sem'],
+                fixed=fixed,
+                errors=errors))
+
         return redirect(url_for('show_planned', 
             major=request.form['major'], 
             start_year=request.form['start_year'],
-            start_sem=int(request.form['start_sem']),
+            start_sem=request.form['start_sem'],
             fixed=fixed))
 
     fixed = eval(fixed)
@@ -48,6 +58,22 @@ def show_edit(major, start_year, start_sem, fixed):
     context['start_sem'] = int(start_sem)
     context['plan'] = plan
     return render_template("index.html", **context)
+
+@app.route('/planned/<major>/<start_year>/<start_sem>/<fixed>/<errors>', methods = ['POST', 'GET'])
+def show_errors(major, start_year, start_sem, fixed, errors):
+    if request.method == 'POST':
+        return redirect(url_for('show_edit', 
+            major=major, 
+            start_year=start_year,
+            start_sem=start_sem,
+            fixed=fixed))
+
+    context = {}
+    context['major'] = major
+    context['start_year'] = int(start_year)
+    context['start_sem'] = int(start_sem)
+    context['errors'] = eval(errors)
+    return render_template("error.html", **context)
 
 
 @app.route('/planned/<major>/<start_year>/<start_sem>/<fixed>', methods = ['POST', 'GET'])

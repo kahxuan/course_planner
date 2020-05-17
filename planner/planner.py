@@ -12,6 +12,40 @@ def get_units():
     return offers['code'].unique().tolist()
 
 
+def check_fixed(units, start_sem):
+
+    offers = pd.read_csv(os.path.join(data_dir, 'offering_msia.csv'))
+
+    errors = []
+    count = {}
+    dup = []
+
+    for i in range(len(units)):
+        for unit in units[i]:
+            if (start_sem + i) % 2 == 1:
+                period = "First semester"
+            else:
+                period = "Second semester"
+
+            if offers[(offers['period'] == period) & (offers['code'] == unit)].empty:
+                errors.append(' is not offered in the '.join([unit, period.lower()]))
+
+            if unit not in count:
+                count[unit] = 1
+            else:
+                count[unit] += 1
+                if count[unit] == 2:
+                    dup.append(unit)
+
+    for unit in dup:
+        errors.append("{} is repeated {} times".format(unit, count[unit]))
+
+    return errors
+
+
+
+
+
 def plan(major, start_sem, fixed):
 
     units = pd.read_csv(os.path.join(data_dir, 'fit_unit_msia.csv'))

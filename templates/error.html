@@ -61,39 +61,15 @@
         </div>
     </div>
 
-    <div class="container col-9 pt-4">
-
-
-        <table class="table table-hover text-center">
-            <tbody>
-                {% for sem in plan%}
-                    <tr>
-                        {% set year = start_year %}
-                        <th scope="row">{{start_year + (loop.index + start_sem) // 2 - 1}} S{{(start_sem + loop.index) % 2 + 1}}</th>
-                        {% set outer_loop = loop %}
-                        {% for unit in sem %}    
-                            <td>
-                                <b>{{unit.unit_code}}</b><br>
-                                <a class="text-secondary" target="_blank" href="https://handbook.monash.edu/2020/units/{{unit.unit_code}}"><small>{{unit.unit_name}}</small></a>
-                            </td>
-                        {% endfor %}
-                    </tr>
-
-                    {% if loop.index % 2 == 0 %}
-                    {% set year = year + 1 %}
-                    {% endif %}
-
-                {% endfor%}
-            </tbody>
-        </table>
-        
+    <div class="container col-6 pt-4">
+        <ul class="list-group-flush">
+            <li class="list-group-item">Please fix the following error(s):</li>
+            {% for error in errors %}
+                <li class="list-group-item list-group-item-danger">{{error}}</li>
+            {% endfor %}
+        </ul>
     </div>
 
-    <div class="container text-center pt-2">
-        <p>
-            Note that the suggested course map is based on the requirements stated in <a class="text-secondary" target="_blank" href="https://handbook.monash.edu">Monash University Handbook 2020</a> and is subjected to future changes.
-        </p>
-    </div>
 
 </form>
 
