@@ -15,6 +15,7 @@ def show_index():
         start_sem=1,
         fixed=[[] for i in range(6)]))
 
+
 @app.route('/edit/<major>/<start_year>/<start_sem>/<fixed>', methods = ['POST', 'GET'])
 def show_edit(major, start_year, start_sem, fixed):
 
@@ -46,7 +47,7 @@ def show_edit(major, start_year, start_sem, fixed):
             start_sem=request.form['start_sem'],
             fixed=fixed))
 
-    fixed = eval(fixed) + ([] * (6 - len(fixed)))
+    fixed = eval(fixed) + [[] for _ in range(6 - len(fixed))]
     plan = [None] * len(fixed)
     for i in range(len(fixed)):
         plan[i] = fixed[i] + max(0, 4 - len(fixed[i])) * [None]
@@ -59,7 +60,8 @@ def show_edit(major, start_year, start_sem, fixed):
     context['plan'] = plan
     return render_template("index.html", **context)
 
-@app.route('/planned/<major>/<start_year>/<start_sem>/<fixed>/<errors>', methods = ['POST', 'GET'])
+
+@app.route('/errors/<major>/<start_year>/<start_sem>/<fixed>/<errors>', methods = ['POST', 'GET'])
 def show_errors(major, start_year, start_sem, fixed, errors):
     if request.method == 'POST':
         return redirect(url_for('show_edit', 

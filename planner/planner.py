@@ -43,9 +43,6 @@ def check_fixed(units, start_sem):
     return errors
 
 
-
-
-
 def plan(major, start_sem, fixed):
 
     units = pd.read_csv(os.path.join(data_dir, 'fit_unit_msia.csv'))
